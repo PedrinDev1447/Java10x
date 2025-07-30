@@ -4,7 +4,7 @@ public class Ternarios {
     public static void main(String[] args) {
         /*
         * usados para reduzir os códigos
-        * variavel = (consdição) ? valorSeForVerdadeiro
+        * variavel = (consdição) ? valorSeForVerdadeiro : valorSeForFalso
         * */
 
         short numeroDeMissoes = 11;
