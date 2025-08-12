@@ -1,6 +1,6 @@
 package nivelIntermediario;
 
-public class Uchiha extends Ninjas{
+public class Uchiha extends Ninja{
 
 
     //Sharingan ativado, método publico
