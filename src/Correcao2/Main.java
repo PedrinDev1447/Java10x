@@ -1,5 +1,7 @@
 package Correcao2;
 
+import nivelIntermediario.Hyuga;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -14,6 +16,15 @@ public class Main {
     sasuke.habilidadeEspecial = "Sharingan";
     sasuke.mostrarInformacoes();
 
+    //Inicializar objeto
+        Haruno sakura = new Haruno();
+        sakura.nome = "Sakura Haruno";
+        sakura.idade = 18;
+        sakura.missao = "Curar Hokage";
+        sakura.nivelDeDificuldade= "Alta";
+        sakura.statusDaMissao = "Em andamento";
+        sakura.habilidadeEspecial = "Byakugou";
+        sakura.mostrarInformacoes();
 
     }
 }

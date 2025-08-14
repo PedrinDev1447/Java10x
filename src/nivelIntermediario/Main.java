@@ -30,12 +30,22 @@ public class Main {
         Hinata.idade = 18;
         Hinata.ByakuganAtivado();
 
-        //A história é reciproca
+        /*A história é reciproca
         Sylvio Yasmin = new Sylvio();
         Yasmin.nome = "Yasmin Sylvio Bezerra";
         Yasmin.aldeia = "SÃO PAULO";
         Yasmin.idade = 22;
         Yasmin.YasminPedro();
+        */
+
+        //Implementando o uso de interfaces
+        Sarada Sarada = new Sarada();
+        Sarada.nome = "Sarada Uchiha Haruno";
+        Sarada.aldeia = "Aldeia da folha";
+        Sarada.idade= 9;
+        Sarada.AtivarCura();
+        Sarada.AtivarSharingan();
+
 
 
 
