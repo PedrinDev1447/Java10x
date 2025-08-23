@@ -1,13 +1,13 @@
 package NivelIntermediario_AbstractXInterface;
 
-public class Uzumaki implements NinjaInterface{
+public class Uzumaki extends Ninja implements NinjaInterface{
     public void tacarUmaShuriken(){
         System.out.println("Eu taquei uma shuriken");
     }
 
 
-  /*  @Override
+   @Override
     public  void nomeDoNinja(){
-        System.out.println();
-    }*/
+        System.out.println("Naruto Uzumaki");
+    }
 }
