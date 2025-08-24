@@ -10,4 +10,7 @@ public class Uzumaki extends Ninja implements NinjaInterface{
     public  void nomeDoNinja(){
         System.out.println("Naruto Uzumaki");
     }
+    public void elementoDominante(){
+        System.out.println("Ar");
+    }
 }

@@ -9,4 +9,8 @@ public class Uchiha extends Ninja{
     public  void nomeDoNinja(){
         System.out.println("Nome: Sasuke Uchiha");
     }
+
+    public void elementoDominante(){
+        System.out.println("Fogo");
+    }
 }
