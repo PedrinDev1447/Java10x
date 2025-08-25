@@ -6,7 +6,16 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     String aldeia;
     int idade;
 
-    //metodos abstratos
+  public Ninja() {
+  }
+
+  public Ninja(String nome, String aldeia, int idade) {
+    this.nome = nome;
+    this.aldeia = aldeia;
+    this.idade = idade;
+  }
+
+  //metodos abstratos
 
     public abstract void nomeDoNinja();
     //nao tem corpo

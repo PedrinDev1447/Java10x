@@ -12,12 +12,15 @@ public abstract  class Main {
          Naruto.elementoDominante();
 
         System.out.println("=================================================================================");
-    //Onjeto sasuke
+    //Objeto sasuke
         Uchiha Sasuke = new Uchiha();
         Sasuke.nome = "Sasuke Uchiha";
         Sasuke.estrategiaDeBatalha();
         Sasuke.elementoDominante();
         System.out.println("=================================================================================");
 
+    //Objeto Itachi
+    Uchiha Itachi = new Uchiha("Itachi Uchiha","Aldeia da folha",27 );
+    Itachi.estrategiaDeBatalha();
     }
 }
