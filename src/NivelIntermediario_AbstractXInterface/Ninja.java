@@ -6,6 +6,8 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     String aldeia;
     int idade;
 
+
+
   public Ninja() {
   }
 
@@ -17,8 +19,6 @@ public abstract class Ninja implements EstrategiaDeBatalha {
 
   //metodos abstratos
 
-    public abstract void nomeDoNinja();
-    //nao tem corpo
 
     public void tacarKunai(){
         System.out.println("Eu taquei uma Kunai");
@@ -30,4 +30,6 @@ public abstract class Ninja implements EstrategiaDeBatalha {
         System.out.println("Meu nome é " + nome + ". Essa é minha estrategia de batalha.");
 
     }
+
+
 }

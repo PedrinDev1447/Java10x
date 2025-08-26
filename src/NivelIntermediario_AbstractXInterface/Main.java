@@ -22,5 +22,20 @@ public abstract  class Main {
     //Objeto Itachi
     Uchiha Itachi = new Uchiha("Itachi Uchiha","Aldeia da folha",27 );
     Itachi.estrategiaDeBatalha();
+        System.out.println("=================================================================================");
+        
+    //Objeto Hatake
+        Hatake Kakashi = new Hatake();
+        Kakashi.nome = "Kakashi Hatake";
+        Kakashi.aldeia = "Aldeia da folha";
+        Kakashi.idade = 48;
+        Kakashi.boasVindas();
+        Kakashi.sharinganAtivado();
+        Kakashi.ninjasDeElite();
+        Kakashi.hokageAtivo();
     }
+
+
+
+
 }
