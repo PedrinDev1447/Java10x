@@ -23,8 +23,14 @@ public abstract  class Main {
     Uchiha Itachi = new Uchiha("Itachi Uchiha","Aldeia da folha",27 );
     Itachi.estrategiaDeBatalha();
         System.out.println("=================================================================================");
-        
-    //Objeto Hatake
+
+    //Objeto Madara
+        Uchiha Madara = new Uchiha("Madara Uchiha","Aldeia da folha",42,900,NivelNinja.HOKAGE);
+        Madara.estrategiaDeBatalha();
+        Madara.elementoDominante();
+        System.out.println("=================================================================================");
+
+        //Objeto Hatake
         Hatake Kakashi = new Hatake();
         Kakashi.nome = "Kakashi Hatake";
         Kakashi.aldeia = "Aldeia da folha";
