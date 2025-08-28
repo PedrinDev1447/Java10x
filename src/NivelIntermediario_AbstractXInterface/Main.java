@@ -17,6 +17,7 @@ public abstract  class Main {
         Sasuke.nome = "Sasuke Uchiha";
         Sasuke.estrategiaDeBatalha();
         Sasuke.elementoDominante();
+        Sasuke.metodoProvisorio();
         System.out.println("=================================================================================");
 
     //Objeto Itachi

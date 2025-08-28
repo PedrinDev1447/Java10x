@@ -44,6 +44,11 @@ public class Uchiha extends Ninja implements Sharingan{
         }
 
     }
+    //Convenção
+    @Override
+    public void metodoProvisorio(){
+        System.out.println("Teste na classe uchiha");
+    }
 
 
 }
