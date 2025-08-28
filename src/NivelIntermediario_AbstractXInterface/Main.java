@@ -28,6 +28,9 @@ public abstract  class Main {
         Uchiha Madara = new Uchiha("Madara Uchiha","Aldeia da folha",42,900,NivelNinja.HOKAGE);
         Madara.estrategiaDeBatalha();
         Madara.elementoDominante();
+        //Método comum
+        Madara.inteligenciaDeCombate();
+        Madara.inteligenciaDeCombate(180);
         System.out.println("=================================================================================");
 
         //Objeto Hatake

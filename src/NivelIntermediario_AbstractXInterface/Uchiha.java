@@ -25,5 +25,25 @@ public class Uchiha extends Ninja implements Sharingan{
         System.out.println("Fogo");
     }
 
+    @Override
+    public void inteligenciaDeCombate() {
+        System.out.println("Meu nome é " + nome + ". Essa é minha INTELIGENCIA de batalha.");
+
+    }
+
+    //Inteligencia de combate - Sobrecarga de métodos
+    @Override
+    public void inteligenciaDeCombate(int qi) {
+        System.out.println("Meu nome é " + nome + ". Essa é minha INTELIGENCIA de batalha.");
+        if (qi > 150){
+            System.out.println("Seu QI é: " + qi + " e voce é um gênio!");
+        } else if (qi >= 130) {
+            System.out.println("Seu QI é: " + qi + " e voce é um ninja promissor!");
+        } else {
+            System.out.println("Seu QI é: " + qi + " e voce é precisa treinar mais suas estratégias");
+        }
+
+    }
+
 
 }
