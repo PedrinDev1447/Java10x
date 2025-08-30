@@ -3,49 +3,15 @@ package NivelIntermediario_AbstractXInterface;
 public abstract  class Main {
     public static void main(String[] args) {
 
+        System.out.println("--------------------Naruto Uzumaki--------------------");
+        Uzumaki naruto = new Uzumaki("Naruto Uzumaki", "Aldeia da folha",17  );
+        System.out.println(naruto.toString());
 
-    //obj Naruto
-         Uzumaki Naruto = new Uzumaki();
-         Naruto.nome = "Naruto Uzumaki";
-         Naruto.tacarUmaShuriken();
-         Naruto.estrategiaDeBatalha();
-         Naruto.elementoDominante();
 
-        System.out.println("=================================================================================");
-    //Objeto sasuke
-        Uchiha Sasuke = new Uchiha();
-        Sasuke.nome = "Sasuke Uchiha";
-        Sasuke.estrategiaDeBatalha();
-        Sasuke.elementoDominante();
-        Sasuke.metodoProvisorio();
-        System.out.println("=================================================================================");
+        System.out.println("--------------------Sasuke Uchiha--------------------");
+        Uchiha sasuke = new Uchiha("Sasuke Uchiha", "Aldeia da folha", 17);
+        System.out.println(sasuke.toString());
 
-    //Objeto Itachi
-    Uchiha Itachi = new Uchiha("Itachi Uchiha","Aldeia da folha",27 );
-    Itachi.estrategiaDeBatalha();
-        System.out.println("=================================================================================");
 
-    //Objeto Madara
-        Uchiha Madara = new Uchiha("Madara Uchiha","Aldeia da folha",42,900,NivelNinja.HOKAGE);
-        Madara.estrategiaDeBatalha();
-        Madara.elementoDominante();
-        //Método comum
-        Madara.inteligenciaDeCombate();
-        Madara.inteligenciaDeCombate(180);
-        System.out.println("=================================================================================");
-
-        //Objeto Hatake
-        Hatake Kakashi = new Hatake();
-        Kakashi.nome = "Kakashi Hatake";
-        Kakashi.aldeia = "Aldeia da folha";
-        Kakashi.idade = 48;
-        Kakashi.boasVindas();
-        Kakashi.sharinganAtivado();
-        Kakashi.ninjasDeElite();
-        Kakashi.hokageAtivo();
     }
-
-
-
-
 }

@@ -64,8 +64,10 @@ public abstract class Ninja implements EstrategiaDeBatalha {
   }
  //método sem override
   public void metodoProvisorio(){
-    System.out.println("Teste na classe uchiha");
+    System.out.println("Teste na classe uchiha");}
+
+  @Override
+  public String toString() {
+    return "Meu nome é: " + nome + ", eu tenho " + idade + ", sou da " + aldeia  ;
   }
-
-
 }
