@@ -6,6 +6,7 @@ public abstract  class Main {
         System.out.println("--------------------Naruto Uzumaki--------------------");
         Uzumaki naruto = new Uzumaki("Naruto Uzumaki", "Aldeia da folha",17  );
         System.out.println(naruto.toString());
+        System.out.println(naruto.altura);
 
 
         System.out.println("--------------------Sasuke Uchiha--------------------");

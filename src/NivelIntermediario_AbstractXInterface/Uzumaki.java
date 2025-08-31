@@ -13,4 +13,6 @@ public class Uzumaki extends Ninja implements NinjaInterface{
     public void elementoDominante(){
         System.out.println("Ar");
     }
+
+
 }
