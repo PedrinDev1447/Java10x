@@ -13,6 +13,12 @@ public abstract  class Main {
         Uchiha sasuke = new Uchiha("Sasuke Uchiha", "Aldeia da folha", 17);
         System.out.println(sasuke.toString());
 
+        System.out.println("--------------------Anbu--------------------");
+
+        Anbu ninjaAnbu = new Anbu();
+        ninjaAnbu.nome = "Ninja Aleatório";
+        System.out.println(ninjaAnbu);
+
 
     }
 }

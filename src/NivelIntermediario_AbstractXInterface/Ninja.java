@@ -5,7 +5,7 @@ public abstract class Ninja implements EstrategiaDeBatalha {
 
   //TODO: Incluir 2 novos atributos: numeroDeMissoesConcluidas, Rank
   //TODO: Rank: Gennin, Chunnin, Jounnin, Hokage
-  //TODOS OS MÉTODOS SÃO PÚBLICOS, MAS O FINAL NÃO. 
+  //TODOS OS MÉTODOS SÃO PÚBLICOS, MAS O FINAL NÃO.
     String nome;
     String aldeia;
     int idade;
