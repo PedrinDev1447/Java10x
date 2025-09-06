@@ -1,16 +1,13 @@
 package NivelIntermediario_AbstractXInterface;
 
-public class Uchiha extends Ninja implements Sharingan{
+public class Uchiha extends Ninja implements SharinganInterface{
 
 
-//Esse metodo vem direto da interface!
-    @Override
-    public void sharinganAtivado() {
-        System.out.println(nome + ": Ativou o Sharingan");
-    }
+    //Criar construtores com todos os argumentos
+    // a palavra "super" está no métodos contrutor, pois ele está se referênciando a classe Ninja
+
 
     public Uchiha() {
-        super( );
     }
 
     public Uchiha(String nome, String aldeia, int idade) {
@@ -19,6 +16,14 @@ public class Uchiha extends Ninja implements Sharingan{
 
     public Uchiha(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
         super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
+    }
+
+
+
+    //Esse metodo vem direto da interface!
+    @Override
+    public void sharinganAtivado() {
+        System.out.println(nome + ": Ativou o Sharingan");
     }
 
     public void elementoDominante(){
