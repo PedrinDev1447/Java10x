@@ -77,4 +77,6 @@ public abstract class Ninja implements EstrategiaDeBatalha {
   public String toString() {
     return "Meu nome é: " + nome + ", eu tenho " + idade + ", sou da " + aldeia  ;
   }
+
+    public abstract void sharinganAtivado();
 }

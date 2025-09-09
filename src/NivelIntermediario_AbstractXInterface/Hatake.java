@@ -1,6 +1,6 @@
 package NivelIntermediario_AbstractXInterface;
 
-public class Hatake extends Ninja implements Sharingan, AmbuInterface, HokageInterface{
+public class Hatake extends Ninja implements  AmbuInterface, HokageInterface{
 
     public void boasVindas(){
         System.out.println(nome + ": Eu sou um Hatake");

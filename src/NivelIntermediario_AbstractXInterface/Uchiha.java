@@ -1,59 +1,26 @@
 package NivelIntermediario_AbstractXInterface;
 
-public class Uchiha extends Ninja implements SharinganInterface{
 
+    public class Uchiha extends Ninja implements SharinganInterface {
 
-    //Criar construtores com todos os argumentos
-    // a palavra "super" está no métodos contrutor, pois ele está se referênciando a classe Ninja
+        public Uchiha() {
+        }
 
+        public Uchiha(String nome, String aldeia, int idade) {
+            super(nome, aldeia, idade);
+        }
 
-    public Uchiha() {
-    }
+        public Uchiha(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
+            super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
+        }
 
-    public Uchiha(String nome, String aldeia, int idade) {
-        super(nome, aldeia, idade);
-    }
-
-    public Uchiha(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
-        super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
-    }
-
-
-
-    //Esse metodo vem direto da interface!
-    @Override
-    public void sharinganAtivado() {
-        System.out.println(nome + ": Ativou o Sharingan");
-    }
-
-    public void elementoDominante(){
-        System.out.println("Fogo");
-    }
-
-    @Override
-    public void inteligenciaDeCombate() {
-        System.out.println("Meu nome é " + nome + ". Essa é minha INTELIGENCIA de batalha.");
-
-    }
-
-    //Inteligencia de combate - Sobrecarga de métodos
-    @Override
-    public void inteligenciaDeCombate(int qi) {
-        System.out.println("Meu nome é " + nome + ". Essa é minha INTELIGENCIA de batalha.");
-        if (qi > 150){
-            System.out.println("Seu QI é: " + qi + " e voce é um gênio!");
-        } else if (qi >= 130) {
-            System.out.println("Seu QI é: " + qi + " e voce é um ninja promissor!");
-        } else {
-            System.out.println("Seu QI é: " + qi + " e voce é precisa treinar mais suas estratégias");
+        /*
+         * Metodo:
+         * Implementa da interface Sharingan
+         * */
+        public void sharinganAtivado() {
+            System.out.println(nome + ": Ativou o Sharingan");
         }
 
     }
-    //Convenção
-    @Override
-    public void metodoProvisorio(){
-        System.out.println("Teste na classe uchiha");
-    }
 
-
-}
