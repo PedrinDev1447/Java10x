@@ -1,10 +1,10 @@
 package Generics;
 
-public class Kunai extends Main{
+public class EquipamentosNinjas {
     private String nome;
 
-    public Kunai(String kunai) {
-        super();
+    public EquipamentosNinjas(String nome) {
+        this.nome = nome;
     }
 
     public String getNome() {
@@ -17,6 +17,6 @@ public class Kunai extends Main{
 
     @Override
     public String toString() {
-        return "Kunai: " + nome;
+        return super.toString();
     }
 }
