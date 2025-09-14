@@ -8,5 +8,7 @@ public class Main {
     bolsaNinja.adicionarFerramenta(new Kunai("Kunai explosiva"));
     bolsaNinja.adicionarFerramenta(new Kunai(20));
 
+        System.out.println();
+
     }
 }
