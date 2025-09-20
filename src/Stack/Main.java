@@ -25,6 +25,11 @@ public class Main {
         ninjaStack.push("Sasuke Uchiha");
         ninjaStack.push("Kakashi Hatake");
         ninjaStack.push("Pedrao monstro de konoha");
+        ninjaStack.push("Tsunade");
+        ninjaStack.push("Jiraya");
+        ninjaStack.push("Danzou");
+
+
         System.out.println("Minha stack atual = " + ninjaStack);
         ninjaStack.pop();
         System.out.println("Stack atualizada com pop = " + ninjaStack);
